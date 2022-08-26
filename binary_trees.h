@@ -88,5 +88,7 @@ bst_t *bst_min_val(bst_t *root);
 int btia_helper(const binary_tree_t *tree, int low, int hi);
 int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
-
+int heap_extract(heap_t **root);
+void recurse_extract(heap_t *tree);
+heap_t *max(heap_t *tree);
 #endif
